@@ -7,208 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039D04E7AF2AD77DB8F3CDB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C211BDB3A344BFD700A44043 /* Foundation.framework */; };
-		42841D0130D660DEA2D90A57 /* Pods-StateButtonDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9EC760656CC6DC5245541E /* Pods-StateButtonDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		586572D5648F70DD716241BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C211BDB3A344BFD700A44043 /* Foundation.framework */; };
-		610471188683041F426EAACB /* Pods-StateButtonDemo-StateButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B52A5E98C587218CDA8378 /* Pods-StateButtonDemo-StateButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AC86B42A7FC288A8FC301E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54478D1C0C94F0723FC7C753 /* UIKit.framework */; };
-		AC14B72634DEAA9B8905CB2F /* Pods-StateButtonDemo-StateButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E72B6B7677B15E77EDF8A9A1 /* Pods-StateButtonDemo-StateButton-dummy.m */; };
-		C74FE1567C4A8223D9725902 /* StateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDCCAB18F15B9B7EB228BA /* StateButton.swift */; };
-		DC89A7D3AC2CD6F4B60E6696 /* Pods-StateButtonDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 892F309B11381C5BD888F238 /* Pods-StateButtonDemo-dummy.m */; };
+		09314292C7D48158428B00F3 /* Pods-StateButtonDemo-StateButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E37B82BD18841F41368BAF /* Pods-StateButtonDemo-StateButton-dummy.m */; };
+		701C6DC0D83ADCD7F5B72B45 /* Pods-StateButtonDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13AB2F354DDB245BA6FB6C38 /* Pods-StateButtonDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		701F7F50982CA6FF4FD36800 /* Pods-StateButtonDemo-StateButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07565C397AD4D2D9BD0FBFDB /* Pods-StateButtonDemo-StateButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808FEDCC72E1A5EDEC732937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4D69052A40E598CC63BC9 /* Foundation.framework */; };
+		85C3B946CD143994E6A3D3CC /* Pods-StateButtonDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E106110FA0964A8CC62C4D7 /* Pods-StateButtonDemo-dummy.m */; };
+		9143C22F87627E18492F12DD /* StateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29120E7CEF73646DC23E9E55 /* StateButton.swift */; };
+		926B6972625159FD9139F637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4D69052A40E598CC63BC9 /* Foundation.framework */; };
+		B345DDAFD8AD1571DF8E93B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B1ACD0CB2F2381186DF438 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		060E0722F0D1DC627E9F2B6B /* PBXContainerItemProxy */ = {
+		4FB941B9EDD27A5D7F7EA410 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 56458BEEAA115900D68A310A /* Project object */;
+			containerPortal = 8CE30E5C79AAC3A2147B56E7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8CBF1F87199B92C004835C83;
+			remoteGlobalIDString = D7A5FEE1C4AA59EC71FF08F5;
 			remoteInfo = "Pods-StateButtonDemo-StateButton";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04B52A5E98C587218CDA8378 /* Pods-StateButtonDemo-StateButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateButtonDemo-StateButton-umbrella.h"; sourceTree = "<group>"; };
-		08FCF8F99B5C28BBE096D870 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1465EE3039B88DEA1304B3D6 /* Pods-StateButtonDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StateButtonDemo.modulemap"; sourceTree = "<group>"; };
-		1BEB06E2FB83613757A01CAB /* Pods_StateButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StateButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CD5412A74A81694E539FE9B /* Pods-StateButtonDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateButtonDemo-environment.h"; sourceTree = "<group>"; };
-		312B7912FDF1208CAC067304 /* Pods-StateButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		34F58789798A40404FB1F9C2 /* Pods-StateButtonDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StateButtonDemo-frameworks.sh"; sourceTree = "<group>"; };
-		3A35EE0F8B649D9700544A0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		485679CA3436E9B6039388C6 /* Pods-StateButtonDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StateButtonDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		53AA60CECE462E6547FA426F /* Pods-StateButtonDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StateButtonDemo-resources.sh"; sourceTree = "<group>"; };
-		54478D1C0C94F0723FC7C753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		63F19779F652D888087BD06D /* Pods-StateButtonDemo-StateButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateButtonDemo-StateButton-Private.xcconfig"; sourceTree = "<group>"; };
-		6F9EC760656CC6DC5245541E /* Pods-StateButtonDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateButtonDemo-umbrella.h"; sourceTree = "<group>"; };
-		7318F0442BC624B73785FCDE /* Pods-StateButtonDemo-StateButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateButtonDemo-StateButton-prefix.pch"; sourceTree = "<group>"; };
-		77D09907ECA9B45956D447C4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7D386B090A786C70A6366075 /* Pods-StateButtonDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StateButtonDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		84EDCCAB18F15B9B7EB228BA /* StateButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StateButton.swift; sourceTree = "<group>"; };
-		892F309B11381C5BD888F238 /* Pods-StateButtonDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StateButtonDemo-dummy.m"; sourceTree = "<group>"; };
-		A2FE4705BE85651B1EB6CAD1 /* Pods-StateButtonDemo-StateButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StateButtonDemo-StateButton.modulemap"; sourceTree = "<group>"; };
-		BA2C2D34B660F5C28D001016 /* Pods-StateButtonDemo-StateButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateButtonDemo-StateButton.xcconfig"; sourceTree = "<group>"; };
-		C211BDB3A344BFD700A44043 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E72B6B7677B15E77EDF8A9A1 /* Pods-StateButtonDemo-StateButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StateButtonDemo-StateButton-dummy.m"; sourceTree = "<group>"; };
-		EEDB517E61AFC2CC42927490 /* Pods-StateButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
-		FB7FA7A8B724F03C8A91A7F7 /* StateButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StateButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07565C397AD4D2D9BD0FBFDB /* Pods-StateButtonDemo-StateButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateButtonDemo-StateButton-umbrella.h"; sourceTree = "<group>"; };
+		12E37B82BD18841F41368BAF /* Pods-StateButtonDemo-StateButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StateButtonDemo-StateButton-dummy.m"; sourceTree = "<group>"; };
+		137C16C87E9E6F500881FECD /* Pods-StateButtonDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StateButtonDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13AB2F354DDB245BA6FB6C38 /* Pods-StateButtonDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateButtonDemo-umbrella.h"; sourceTree = "<group>"; };
+		287D0B57255A87C1DD860975 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29120E7CEF73646DC23E9E55 /* StateButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StateButton.swift; path = StateButton/StateButton.swift; sourceTree = "<group>"; };
+		3A27DE65B454D533B0AA53B9 /* Pods-StateButtonDemo-StateButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StateButtonDemo-StateButton.modulemap"; sourceTree = "<group>"; };
+		47EB1443E27116C8E4DB1E91 /* Pods-StateButtonDemo-StateButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateButtonDemo-StateButton.xcconfig"; sourceTree = "<group>"; };
+		48DE14C3564CDC671AA24339 /* Pods-StateButtonDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StateButtonDemo.modulemap"; sourceTree = "<group>"; };
+		49865A42D618126F32386239 /* Pods_StateButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StateButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A028B5EE9482D4E89692B8 /* Pods-StateButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5402D8DC959CCE2A93A5C308 /* Pods-StateButtonDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StateButtonDemo-frameworks.sh"; sourceTree = "<group>"; };
+		5AA4D69052A40E598CC63BC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CA0BD3A65CF05A3DAD82094 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		685A7DA3290BBD1F19DD286C /* Pods-StateButtonDemo-StateButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateButtonDemo-StateButton-Private.xcconfig"; sourceTree = "<group>"; };
+		69B1ACD0CB2F2381186DF438 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E106110FA0964A8CC62C4D7 /* Pods-StateButtonDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StateButtonDemo-dummy.m"; sourceTree = "<group>"; };
+		8D2706EDC346464835E60860 /* Pods-StateButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8F127BD945E0C753C1377C31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998F049F3CFB0AFF853B0D3B /* Pods-StateButtonDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateButtonDemo-environment.h"; sourceTree = "<group>"; };
+		A0098ECA7094B545451F017F /* Pods-StateButtonDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StateButtonDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		C54F1EE13646103B37A6663F /* Pods-StateButtonDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StateButtonDemo-resources.sh"; sourceTree = "<group>"; };
+		F580DF5707CC1E339851A6A2 /* Pods-StateButtonDemo-StateButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateButtonDemo-StateButton-prefix.pch"; sourceTree = "<group>"; };
+		F698FFA795F39CED3E44DE80 /* StateButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StateButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8793E7FB8F8E95CB92CCE75F /* Frameworks */ = {
+		2EA94C02E57CFD7422AA4A16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039D04E7AF2AD77DB8F3CDB3 /* Foundation.framework in Frameworks */,
-				8AC86B42A7FC288A8FC301E9 /* UIKit.framework in Frameworks */,
+				808FEDCC72E1A5EDEC732937 /* Foundation.framework in Frameworks */,
+				B345DDAFD8AD1571DF8E93B9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCCE0CACFB06E2AA01BD7C13 /* Frameworks */ = {
+		EA25FB9814FE892526815D49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				586572D5648F70DD716241BF /* Foundation.framework in Frameworks */,
+				926B6972625159FD9139F637 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		511C26A2711DA371A3D06969 /* Development Pods */ = {
+		03A7FFE8B8B8CEA5BAA500C8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5D5C7497D75774B6E288C615 /* StateButton */,
+				E4FE44DC0AB5DA7A15D8DA4A /* StateButton */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		598946DA5B792B48744A9E9C /* iOS */ = {
+		4FDB51F917B0B6463D04000E = {
 			isa = PBXGroup;
 			children = (
-				C211BDB3A344BFD700A44043 /* Foundation.framework */,
-				54478D1C0C94F0723FC7C753 /* UIKit.framework */,
+				5CA0BD3A65CF05A3DAD82094 /* Podfile */,
+				565D8C2B93880B38F624264D /* Frameworks */,
+				03A7FFE8B8B8CEA5BAA500C8 /* Pods */,
+				7A7FAF62859613E02C13127D /* Products */,
+				F031A00CA5C8F1C793E0C36D /* Targets Support Files */,
 			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
-		5D5C7497D75774B6E288C615 /* StateButton */ = {
+		565D8C2B93880B38F624264D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A0CEE0CB2880617A66E56D4 /* StateButton */,
-				AF9C411D296A4E48EBEA7638 /* Support Files */,
+				CADA5E3F3C651B0D1429059A /* iOS */,
 			);
-			name = StateButton;
-			path = "/Users/fu-zhiyang/Workspace/iOS/projects/StateButton";
-			sourceTree = "<absolute>";
-		};
-		7A0CEE0CB2880617A66E56D4 /* StateButton */ = {
-			isa = PBXGroup;
-			children = (
-				84EDCCAB18F15B9B7EB228BA /* StateButton.swift */,
-			);
-			path = StateButton;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9A1E1C7530AE34096B00910B /* Pods-StateButtonDemo */ = {
+		7A7FAF62859613E02C13127D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A35EE0F8B649D9700544A0C /* Info.plist */,
-				1465EE3039B88DEA1304B3D6 /* Pods-StateButtonDemo.modulemap */,
-				7D386B090A786C70A6366075 /* Pods-StateButtonDemo-acknowledgements.markdown */,
-				485679CA3436E9B6039388C6 /* Pods-StateButtonDemo-acknowledgements.plist */,
-				892F309B11381C5BD888F238 /* Pods-StateButtonDemo-dummy.m */,
-				1CD5412A74A81694E539FE9B /* Pods-StateButtonDemo-environment.h */,
-				34F58789798A40404FB1F9C2 /* Pods-StateButtonDemo-frameworks.sh */,
-				53AA60CECE462E6547FA426F /* Pods-StateButtonDemo-resources.sh */,
-				6F9EC760656CC6DC5245541E /* Pods-StateButtonDemo-umbrella.h */,
-				312B7912FDF1208CAC067304 /* Pods-StateButtonDemo.debug.xcconfig */,
-				EEDB517E61AFC2CC42927490 /* Pods-StateButtonDemo.release.xcconfig */,
+				49865A42D618126F32386239 /* Pods_StateButtonDemo.framework */,
+				F698FFA795F39CED3E44DE80 /* StateButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D0DA259EE35ADE293350DDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				287D0B57255A87C1DD860975 /* Info.plist */,
+				3A27DE65B454D533B0AA53B9 /* Pods-StateButtonDemo-StateButton.modulemap */,
+				47EB1443E27116C8E4DB1E91 /* Pods-StateButtonDemo-StateButton.xcconfig */,
+				685A7DA3290BBD1F19DD286C /* Pods-StateButtonDemo-StateButton-Private.xcconfig */,
+				12E37B82BD18841F41368BAF /* Pods-StateButtonDemo-StateButton-dummy.m */,
+				F580DF5707CC1E339851A6A2 /* Pods-StateButtonDemo-StateButton-prefix.pch */,
+				07565C397AD4D2D9BD0FBFDB /* Pods-StateButtonDemo-StateButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-StateButtonDemo-StateButton";
+			sourceTree = "<group>";
+		};
+		C828757C161FE5FA4DA9125F /* Pods-StateButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F127BD945E0C753C1377C31 /* Info.plist */,
+				48DE14C3564CDC671AA24339 /* Pods-StateButtonDemo.modulemap */,
+				137C16C87E9E6F500881FECD /* Pods-StateButtonDemo-acknowledgements.markdown */,
+				A0098ECA7094B545451F017F /* Pods-StateButtonDemo-acknowledgements.plist */,
+				7E106110FA0964A8CC62C4D7 /* Pods-StateButtonDemo-dummy.m */,
+				998F049F3CFB0AFF853B0D3B /* Pods-StateButtonDemo-environment.h */,
+				5402D8DC959CCE2A93A5C308 /* Pods-StateButtonDemo-frameworks.sh */,
+				C54F1EE13646103B37A6663F /* Pods-StateButtonDemo-resources.sh */,
+				13AB2F354DDB245BA6FB6C38 /* Pods-StateButtonDemo-umbrella.h */,
+				8D2706EDC346464835E60860 /* Pods-StateButtonDemo.debug.xcconfig */,
+				53A028B5EE9482D4E89692B8 /* Pods-StateButtonDemo.release.xcconfig */,
 			);
 			name = "Pods-StateButtonDemo";
 			path = "Target Support Files/Pods-StateButtonDemo";
 			sourceTree = "<group>";
 		};
-		9A35814D18F2683F8E26F2CE = {
+		CADA5E3F3C651B0D1429059A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				77D09907ECA9B45956D447C4 /* Podfile */,
-				511C26A2711DA371A3D06969 /* Development Pods */,
-				E1DAB7E6CD8326D3A5C2DF8C /* Frameworks */,
-				FD46C709E9FC0C129D8A39A4 /* Products */,
-				9BD508F0DA8A853672FA86B6 /* Targets Support Files */,
+				5AA4D69052A40E598CC63BC9 /* Foundation.framework */,
+				69B1ACD0CB2F2381186DF438 /* UIKit.framework */,
 			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		9BD508F0DA8A853672FA86B6 /* Targets Support Files */ = {
+		E4FE44DC0AB5DA7A15D8DA4A /* StateButton */ = {
 			isa = PBXGroup;
 			children = (
-				9A1E1C7530AE34096B00910B /* Pods-StateButtonDemo */,
+				29120E7CEF73646DC23E9E55 /* StateButton.swift */,
+				9D0DA259EE35ADE293350DDD /* Support Files */,
+			);
+			path = StateButton;
+			sourceTree = "<group>";
+		};
+		F031A00CA5C8F1C793E0C36D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C828757C161FE5FA4DA9125F /* Pods-StateButtonDemo */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AF9C411D296A4E48EBEA7638 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				08FCF8F99B5C28BBE096D870 /* Info.plist */,
-				A2FE4705BE85651B1EB6CAD1 /* Pods-StateButtonDemo-StateButton.modulemap */,
-				BA2C2D34B660F5C28D001016 /* Pods-StateButtonDemo-StateButton.xcconfig */,
-				63F19779F652D888087BD06D /* Pods-StateButtonDemo-StateButton-Private.xcconfig */,
-				E72B6B7677B15E77EDF8A9A1 /* Pods-StateButtonDemo-StateButton-dummy.m */,
-				7318F0442BC624B73785FCDE /* Pods-StateButtonDemo-StateButton-prefix.pch */,
-				04B52A5E98C587218CDA8378 /* Pods-StateButtonDemo-StateButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "StateButtonDemo/Pods/Target Support Files/Pods-StateButtonDemo-StateButton";
-			sourceTree = "<group>";
-		};
-		E1DAB7E6CD8326D3A5C2DF8C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				598946DA5B792B48744A9E9C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FD46C709E9FC0C129D8A39A4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1BEB06E2FB83613757A01CAB /* Pods_StateButtonDemo.framework */,
-				FB7FA7A8B724F03C8A91A7F7 /* StateButton.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		04B48EBF98EFAF2C89E7176E /* Headers */ = {
+		64F815DD8653A34F86D2D757 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610471188683041F426EAACB /* Pods-StateButtonDemo-StateButton-umbrella.h in Headers */,
+				701F7F50982CA6FF4FD36800 /* Pods-StateButtonDemo-StateButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBE64C492EEF74A381A14E86 /* Headers */ = {
+		A13A66362FEEB3F563CF30AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42841D0130D660DEA2D90A57 /* Pods-StateButtonDemo-umbrella.h in Headers */,
+				701C6DC0D83ADCD7F5B72B45 /* Pods-StateButtonDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8CBF1F87199B92C004835C83 /* Pods-StateButtonDemo-StateButton */ = {
+		4507AD1C4C14D086EB1DA4A7 /* Pods-StateButtonDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50EC48D354196CB13261830C /* Build configuration list for PBXNativeTarget "Pods-StateButtonDemo-StateButton" */;
+			buildConfigurationList = 26CE7CFF3F30985BDA49B5B3 /* Build configuration list for PBXNativeTarget "Pods-StateButtonDemo" */;
 			buildPhases = (
-				46C6A64531FBB41CE4323E7E /* Sources */,
-				8793E7FB8F8E95CB92CCE75F /* Frameworks */,
-				04B48EBF98EFAF2C89E7176E /* Headers */,
+				52B7ADBCC44AE1206A36C013 /* Sources */,
+				EA25FB9814FE892526815D49 /* Frameworks */,
+				A13A66362FEEB3F563CF30AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B1379ECE25D76CBA4C3692 /* PBXTargetDependency */,
+			);
+			name = "Pods-StateButtonDemo";
+			productName = "Pods-StateButtonDemo";
+			productReference = 49865A42D618126F32386239 /* Pods_StateButtonDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7A5FEE1C4AA59EC71FF08F5 /* Pods-StateButtonDemo-StateButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C5BDA334677BC9210A9D6B /* Build configuration list for PBXNativeTarget "Pods-StateButtonDemo-StateButton" */;
+			buildPhases = (
+				76607C1CFB863314E796F713 /* Sources */,
+				2EA94C02E57CFD7422AA4A16 /* Frameworks */,
+				64F815DD8653A34F86D2D757 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -216,84 +225,66 @@
 			);
 			name = "Pods-StateButtonDemo-StateButton";
 			productName = "Pods-StateButtonDemo-StateButton";
-			productReference = FB7FA7A8B724F03C8A91A7F7 /* StateButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F90D0B8FEC00F7BFB045110E /* Pods-StateButtonDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C76A4FB4457DF712BB203989 /* Build configuration list for PBXNativeTarget "Pods-StateButtonDemo" */;
-			buildPhases = (
-				8EC6E30D3AD27D9F60269F81 /* Sources */,
-				FCCE0CACFB06E2AA01BD7C13 /* Frameworks */,
-				FBE64C492EEF74A381A14E86 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E37134FFEAD4CDAD1FC6F76C /* PBXTargetDependency */,
-			);
-			name = "Pods-StateButtonDemo";
-			productName = "Pods-StateButtonDemo";
-			productReference = 1BEB06E2FB83613757A01CAB /* Pods_StateButtonDemo.framework */;
+			productReference = F698FFA795F39CED3E44DE80 /* StateButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		56458BEEAA115900D68A310A /* Project object */ = {
+		8CE30E5C79AAC3A2147B56E7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 8CE9A35709E2F09B79BAC54A /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = C6EC2D3C802490EEC5F28F7F /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9A35814D18F2683F8E26F2CE;
-			productRefGroup = FD46C709E9FC0C129D8A39A4 /* Products */;
+			mainGroup = 4FDB51F917B0B6463D04000E;
+			productRefGroup = 7A7FAF62859613E02C13127D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F90D0B8FEC00F7BFB045110E /* Pods-StateButtonDemo */,
-				8CBF1F87199B92C004835C83 /* Pods-StateButtonDemo-StateButton */,
+				4507AD1C4C14D086EB1DA4A7 /* Pods-StateButtonDemo */,
+				D7A5FEE1C4AA59EC71FF08F5 /* Pods-StateButtonDemo-StateButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46C6A64531FBB41CE4323E7E /* Sources */ = {
+		52B7ADBCC44AE1206A36C013 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC14B72634DEAA9B8905CB2F /* Pods-StateButtonDemo-StateButton-dummy.m in Sources */,
-				C74FE1567C4A8223D9725902 /* StateButton.swift in Sources */,
+				85C3B946CD143994E6A3D3CC /* Pods-StateButtonDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EC6E30D3AD27D9F60269F81 /* Sources */ = {
+		76607C1CFB863314E796F713 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC89A7D3AC2CD6F4B60E6696 /* Pods-StateButtonDemo-dummy.m in Sources */,
+				09314292C7D48158428B00F3 /* Pods-StateButtonDemo-StateButton-dummy.m in Sources */,
+				9143C22F87627E18492F12DD /* StateButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E37134FFEAD4CDAD1FC6F76C /* PBXTargetDependency */ = {
+		A1B1379ECE25D76CBA4C3692 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-StateButtonDemo-StateButton";
-			target = 8CBF1F87199B92C004835C83 /* Pods-StateButtonDemo-StateButton */;
-			targetProxy = 060E0722F0D1DC627E9F2B6B /* PBXContainerItemProxy */;
+			target = D7A5FEE1C4AA59EC71FF08F5 /* Pods-StateButtonDemo-StateButton */;
+			targetProxy = 4FB941B9EDD27A5D7F7EA410 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01E325E696DA649BB42971F0 /* Debug */ = {
+		08A3147CB8D665013CE0412C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +323,34 @@
 			};
 			name = Debug;
 		};
-		4CF6424B47758B4BEBB6B9D1 /* Release */ = {
+		0E89467F9076D3B8BD72EDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685A7DA3290BBD1F19DD286C /* Pods-StateButtonDemo-StateButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-StateButtonDemo-StateButton/Pods-StateButtonDemo-StateButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-StateButtonDemo-StateButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-StateButtonDemo-StateButton/Pods-StateButtonDemo-StateButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = StateButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		418354B985A5E2BFF4F3E3BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,65 +384,9 @@
 			};
 			name = Release;
 		};
-		B4A93C62A6D5FE041F578EB5 /* Release */ = {
+		5F4167911809E6F0F44C37EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEDB517E61AFC2CC42927490 /* Pods-StateButtonDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-StateButtonDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-StateButtonDemo/Pods-StateButtonDemo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_StateButtonDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C1E7CE67AC368C874205B838 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63F19779F652D888087BD06D /* Pods-StateButtonDemo-StateButton-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-StateButtonDemo-StateButton/Pods-StateButtonDemo-StateButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-StateButtonDemo-StateButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-StateButtonDemo-StateButton/Pods-StateButtonDemo-StateButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = StateButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D69B703B6CF8A1B137D67DBE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63F19779F652D888087BD06D /* Pods-StateButtonDemo-StateButton-Private.xcconfig */;
+			baseConfigurationReference = 685A7DA3290BBD1F19DD286C /* Pods-StateButtonDemo-StateButton-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -450,9 +412,9 @@
 			};
 			name = Debug;
 		};
-		E8C9A864CCC5E8D786FDB87F /* Debug */ = {
+		9FBFD6BF160EA40567FCB8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 312B7912FDF1208CAC067304 /* Pods-StateButtonDemo.debug.xcconfig */;
+			baseConfigurationReference = 8D2706EDC346464835E60860 /* Pods-StateButtonDemo.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -479,38 +441,67 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F21013EE01F62373A90F8392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A028B5EE9482D4E89692B8 /* Pods-StateButtonDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StateButtonDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-StateButtonDemo/Pods-StateButtonDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_StateButtonDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50EC48D354196CB13261830C /* Build configuration list for PBXNativeTarget "Pods-StateButtonDemo-StateButton" */ = {
+		26CE7CFF3F30985BDA49B5B3 /* Build configuration list for PBXNativeTarget "Pods-StateButtonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D69B703B6CF8A1B137D67DBE /* Debug */,
-				C1E7CE67AC368C874205B838 /* Release */,
+				9FBFD6BF160EA40567FCB8B0 /* Debug */,
+				F21013EE01F62373A90F8392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CE9A35709E2F09B79BAC54A /* Build configuration list for PBXProject "Pods" */ = {
+		C6EC2D3C802490EEC5F28F7F /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01E325E696DA649BB42971F0 /* Debug */,
-				4CF6424B47758B4BEBB6B9D1 /* Release */,
+				08A3147CB8D665013CE0412C /* Debug */,
+				418354B985A5E2BFF4F3E3BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C76A4FB4457DF712BB203989 /* Build configuration list for PBXNativeTarget "Pods-StateButtonDemo" */ = {
+		F9C5BDA334677BC9210A9D6B /* Build configuration list for PBXNativeTarget "Pods-StateButtonDemo-StateButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8C9A864CCC5E8D786FDB87F /* Debug */,
-				B4A93C62A6D5FE041F578EB5 /* Release */,
+				5F4167911809E6F0F44C37EF /* Debug */,
+				0E89467F9076D3B8BD72EDBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 56458BEEAA115900D68A310A /* Project object */;
+	rootObject = 8CE30E5C79AAC3A2147B56E7 /* Project object */;
 }

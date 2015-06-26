@@ -6,5 +6,5 @@ source 'https://github.com/zyfu0000/StateButton.git'
 use_frameworks!
  
 target 'StateButtonDemo' do
-  pod 'StateButton', :path => '/Users/fu-zhiyang/Workspace/iOS/projects/StateButton'
+  pod 'StateButton'
 end
