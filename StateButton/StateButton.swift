@@ -8,8 +8,6 @@
 
 import UIKit
 
-typealias StateButtonClosure = (Int) -> ()
-
 public class StateButton: UIButton {
 
     public var titles = [String]() {
@@ -31,8 +29,8 @@ public class StateButton: UIButton {
             setImage(images[0], forState: .Normal)
         }
     }
-    var closures    = [StateButtonClosure]()
     public var transitions = [(String, String)]()
+    public var closures : [((index: Int) -> ())?]?
     
     private var index : Int = 0
     
@@ -56,8 +54,10 @@ public class StateButton: UIButton {
     }
     
     @objc private func touchUpInside() {
-        if closures.count > 0 {
-            closures[index](index)
+        if let _closures = closures {
+            if let closure = _closures[index] {
+                closure(index: index)
+            }
         }
         
         if transitions.count > 0 {
