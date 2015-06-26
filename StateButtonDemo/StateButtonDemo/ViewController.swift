@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import StateButton
 
 class ViewController: UIViewController {
     
@@ -14,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         stateButton.titles = ["facebook"]
         stateButton.images = [UIImage(named: "icon_login_facebook")!, UIImage(named: "icon_login_twitter")!, UIImage(named: "icon_login_mail")!]

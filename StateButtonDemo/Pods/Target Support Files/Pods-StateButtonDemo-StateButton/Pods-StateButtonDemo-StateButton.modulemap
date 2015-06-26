@@ -1,0 +1,6 @@
+framework module StateButton {
+  umbrella header "Pods-StateButtonDemo-StateButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

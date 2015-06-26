@@ -1,0 +1,14 @@
+PODS:
+  - StateButton (0.1.0)
+
+DEPENDENCIES:
+  - StateButton (from `/Users/fu-zhiyang/Workspace/iOS/projects/StateButton`)
+
+EXTERNAL SOURCES:
+  StateButton:
+    :path: /Users/fu-zhiyang/Workspace/iOS/projects/StateButton
+
+SPEC CHECKSUMS:
+  StateButton: ecedd2043f8a6744dd9e883692dd4ff093b488d3
+
+COCOAPODS: 0.37.2
