@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/zyfu0000/StateButton"
  
  
-  s.source = { :git => "https://github.com/zyfu0000/StateButton", :tag => "#{s.version}"}
+  s.source = { :git => "https://github.com/zyfu0000/StateButton.git", :tag => "#{s.version}"}
  
 
   s.framework = "UIKit"
