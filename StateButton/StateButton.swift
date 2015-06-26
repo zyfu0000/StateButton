@@ -10,43 +10,43 @@ import UIKit
 
 typealias StateButtonClosure = (Int) -> ()
 
-class StateButton: UIButton {
+public class StateButton: UIButton {
 
-    var titles = [String]() {
+    public var titles = [String]() {
         didSet {
             assert(titles.count > 0 || images.count > 0, "titles and images can't both be empty")
             setTitle(titles[0], forState: .Normal)
         }
     }
-    var titleColors = [UIColor]() {
+    public var titleColors = [UIColor]() {
         didSet {
             if titleColors.count > 0 {
                 setTitleColor(titleColors[0], forState: .Normal)
             }
         }
     }
-    var images = [UIImage]() {
+    public var images = [UIImage]() {
         didSet {
             assert(titles.count > 0 || images.count > 0, "titles and images can't both be empty")
             setImage(images[0], forState: .Normal)
         }
     }
     var closures    = [StateButtonClosure]()
-    var transitions = [(String, String)]()
+    public var transitions = [(String, String)]()
     
     private var index : Int = 0
     
-    init () {
+    public init () {
         super.init(frame: CGRectZero)
         addTouchHandler()
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         addTouchHandler()
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         addTouchHandler()
     }
